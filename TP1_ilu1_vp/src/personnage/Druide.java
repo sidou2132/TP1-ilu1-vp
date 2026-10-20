@@ -31,9 +31,9 @@ public class Druide {
 	{
 		if (chaudran.resterPotion()==true) 
 		{
-			if (gaulois.getnom()=="Obelix")
+			if (gaulois.getnom().equals("obelix"))
 			{
-				parler("non,"+gaulois.getnom()+"non !... Et tu le sais tres bien !");
+				parler("non, "+gaulois.getnom()+" non !... Et tu le sais tres bien !");
 			}
 			else
 			{

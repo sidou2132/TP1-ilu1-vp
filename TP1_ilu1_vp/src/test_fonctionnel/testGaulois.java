@@ -22,7 +22,8 @@ for (int i=0;i<3;i++)
 chaudran chaudran = new chaudran(0, 0);
 Druide panoramix=new Druide ("panoramix",2,chaudran);
 panoramix.fabriquer(4, 3);
-obelix.boirPotion(3);
+panoramix.booster(obelix);
+panoramix.booster(asterix);
 asterix.boirPotion(3);
   //personnage-brutus
 Romain brutus =new Romain("brutus",14);
