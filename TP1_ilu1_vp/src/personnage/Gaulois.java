@@ -4,6 +4,7 @@ public class Gaulois {
 private String nom ;
 private int force;
 private int effetPotion=1;
+private Village village ;
 public Gaulois (String nom,int force) 
 {
 	this.nom=nom;
@@ -32,8 +33,16 @@ public String getnom()
 {
 	   return nom ;
 }
+public String toString()
+{
+	return nom ;
+}
 public void boirPotion(int forcePotion)
 {
 	this.effetPotion=forcePotion;
+}
+public void setVillage(Village village )
+{
+	this.village=village;
 }
 }
